@@ -12,4 +12,5 @@ public interface PlayerRepository extends JpaRepository<Player, Integer> {
     List<Player> findPlayerById(@Param("id") Integer id);
     Player findPlayerByGamerTag(@Param("gamerTag") String gamerTag);
     Player findPlayerByRealName(@Param("realName") String realName);
+    List<Player> findPlayerByGamerTagContainingIgnoreCase(@Param("gamertag") String gamertag);
 }
