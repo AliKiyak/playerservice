@@ -39,4 +39,7 @@ public class Player {
 
     @Column(name = "picture")
     private String picture;
+
+    @Column(name = "teamId")
+    private String teamId;
 }
