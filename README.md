@@ -21,4 +21,4 @@ This is a school project made for the course Java Advanced Topipcs
 * Chris Tophe (Christophe195)
 
 ## Associations
-The game-service has associations with the **Team ** microservice. So make sure that it is running aswell.
+The game-service has associations with the **Team** microservice. So make sure that it is running aswell.
